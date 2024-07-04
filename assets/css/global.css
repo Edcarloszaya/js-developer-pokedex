@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background: linear-gradient(to right, #536976, #BBD2C5);
 }
 
 .content {
