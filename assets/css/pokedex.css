@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    background-color: white;
 }
+
 
 .normal {
     background-color: #a6a877;
@@ -144,6 +146,99 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+}
+
+.pokemon-details {
+    display: flex;
+    align-self: center;
+
+}
+
+.btn-details {
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: dimgray;
+    cursor: pointer;
+}
+
+.btn-details:hover {
+    background-color: azure;
+    color: #000;
+}
+
+.btn-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.pokemon-detail {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke-detail {
+    width: 240px;
+    height: 420px;
+    border: 1px solid rgb(183, 179, 187);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.poke-invisible {
+    display: none
+    
+}
+
+.poke-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    margin-bottom: 0;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.stats-list{
+    list-style: none;
+    color: white;
+    filter: brightness(1);
+    
+}
+
+.stat-details{
+    padding: .1rem;
+    border-radius: .5rem;
+    filter: brightness(1.1);
+    margin-bottom: .2rem;
+    
+}
+
+#align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    color: white;
+}
+
+#img-pokestat {
+    margin-top:0%;
+    width: 150px;
+    height: 175px;
+}
+
+#list-content{
+    margin-top: -10px;
+    width: 90%;
+    
 }
 
 @media screen and (min-width: 380px) {
