@@ -19,6 +19,8 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
 function convertStatsPokemon(pokemonStat) {
   const stats = new Stats();
   stats.name = pokemonStat.name;
+  stats.height = pokemonStat.height;
+  stats.weight = pokemonStat.weight;
 
   stats.hp = pokemonStat.stats[0].stat.name;
   stats.hpValor = pokemonStat.stats[0].base_stat;

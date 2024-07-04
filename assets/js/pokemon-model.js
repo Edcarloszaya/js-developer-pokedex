@@ -8,6 +8,8 @@ class Pokemon {
 
 class Stats {
   name;
+  height;
+  weight;
   hp;
   hpValor;
   attack;

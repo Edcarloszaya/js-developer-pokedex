@@ -73,6 +73,8 @@ function comvertStatusToLi(stat) {
       <div id="list-content">
   
         <ol class="stats-list"  id="poke-list">
+          <li class="stat-details ${stat.type}">height : ${stat.height}</li>
+          <li class="stat-details ${stat.type}">weight : ${stat.weight}</li>
           <li class="stat-details ${stat.type}">${stat.hp} : ${stat.hpValor}</li>
           <li class="stat-details ${stat.type}">${stat.attack} : ${stat.attackValor}</li>
           <li class="stat-details ${stat.type}">${stat.defence} : ${stat.defenceValor}</li>
